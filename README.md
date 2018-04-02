@@ -1,124 +1,30 @@
-<!DOCTYPE HTML>
-<html lang="es">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="title" content="NOMBRE DUPLA">
-<title>Herrera & Marín</title>
-<!-- Search Engine -->
-<meta name="description" content="cambiar">
-<meta name="image" content="cambiar por una URL, debes deben la imagen en línea">
-<!-- Schema.org for Google -->
-<meta itemprop="name" content="cambiar">
-<meta itemprop="description" content="cambiar">
-<meta itemprop="image" content="cambiar por una URL, deben poner la imagen en línea">
-<!-- Twitter -->
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="cambiar">
-<meta name="twitter:description" content="cambiar">
-<!-- Open Graph general (Facebook, Pinterest & Google+) -->
-<meta name="og:title" content="cambiar">
-<meta name="og:description" content="cambiar">
-<meta name="og:image" content="cambiar">
-<meta name="og:url" content="cambiar">
-<meta name="og:site_name" content="cambiar">
-<meta name="og:locale" content="es_CL">
-<meta name="og:type" content="website">
-<!--ahora vinculamos los estilos-->
-<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Poppins:300,600" rel="stylesheet">
-<link rel="stylesheet" href="estilo.css" type="text/css">
-</head>
-<body>
-<div id="contenido">
-<header>
-	<h1>Los BrocaCochis</h1>
-	<h2>dabududabudabududabuda</h2>
-</header>
-<video autoplay loop preload="auto" poster="media/video.jpg">
-	<source src="media/video.webm" type="video/webm">
-	<source src="media/video.mp4" type="video/mp4">
-	<p>Tu navegador no soporta el elemento, actualízate.</p>
-</video>
-<h3>Hola Qué Hace</h3>
-<div id="somos">
-	<div class="dupla primera">
-		<h4>Leopoldo Herrera</h4>
-		<h5>We Are Glorious!!!</h5>
-		<p>The Broken are the more evolved.</p>
-		<address><a href="mailto:lrherrera@uc.cl">lrherrera@gmail.com</a></address>
-	</div><!--/dupla primera-->
-	<div class="dupla segunda">
-		<h4>María Paz Marín</h4>
-		<h5>Taekwon!</h5>
-		<p>La típica.</p>
-		<address><a href="mailto:mpmarin1@uc.cl">mail@mail.com</a></address>
-	</div><!--/dupla segunda-->
-	<hr />
-</div><!--/somos-->
-<h3>PORTAFOLIO</h3>
-<div id="portafolio">
-	<div class="item">
-		<figure><img src="media/foto-01.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-02.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-03.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-04.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-04.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-05.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-06.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-07.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-	<div class="item">
-		<figure><img src="media/foto-08.jpg"/></figure>
-	  	<h4>Lorem ipsum</h4>
-	  	<p>Nulla pretium non sapien eget fermentum.</p>
-	</div><!--/item-->
-</div><!--/portafolio-->
+# Procesos de produccion
 
-<footer>
-	<p>Procesos de Producción · primer semestre · 2018 · sección web</p>
-	<hr />
-</footer>
+## Módulo Web
 
-</div><!--/contenido-->
-<script src="masonry.pkgd.min.js"></script>
-<script>
-window.onload = function() {
-var container = document.querySelector('#portafolio');
-var msnry = new Masonry( portafolio, {
-  itemSelector: '.item'
-});
-};
-</script>
-</body>
-</html>
+http://profesor.faco.cl | profesor@faco.cl
+
+En este módulo, en el que contamos con 2 clases, haremos una **introducción a los lenguajes del Front-End**. Esto les permitirá aportar a los procesos de producción web:
+
+- entendiendo aquello que se muestra al “ver código fuente”;
+- teniendo clara idea de las “complejidades de la programación”; 
+- implementando sitios web sencillos; y
+- produciendo prototipos funcionales de aplicaciones realmente complejas.
+
+En la primera clase, de 26 de marzo haremos una [introducción general a la web, su producción y roles actuales involucrados](https://github.com/profesorfaco/modulo-web/wiki/ABC), para luego revisar los lenguajes [HTML](https://github.com/profesorfaco/modulo-web/wiki/HTML), [CSS](https://github.com/profesorfaco/modulo-web/wiki/CSS) y [JavaScript](https://github.com/profesorfaco/modulo-web/wiki/JavaScript).
+
+En la segunda clase, de 4 de abril, revisaremos, línea por línea, una página HTML, una hoja de estilo CSS y algunas funciones JavaScript. Todo esto es parte de una plantilla que tendrán que modificar para convertirla en un portafolio en línea.
+
+**La nota del módulo se obtiene de la implementación de tal portafolio, que puede desarrollarse entre dos estudiantes o de manera individual. Las indicaciones necesarias para la implementación del portafolio la encontrarán en su rúbrica de evaluación. Esta rúbrica será compartida, mediante vía Google Docs/Drive**
+
+La nota que obtengan, según rúbrica, por su entrega puede recibir bonificaciones, considerando: 
+- el porcentaje de respuestas correctas para cuestionarios cortos, a responder durante las clases (+0,5)
+- el tiempo que les tome producirla (+0,5) 
+
+La entrega de su portafolio se hará mediante [GitHub Pages](https://pages.github.com/) y un correo electrónico, atendiendo a un protocolo que se describirán en la rúbrica. 
+
+Tendrán hasta las 23:59 hrs. del domingo 8 de abril para obtener esa bonificación de 0,5.
+
+Después, etre las 00.00 hrs. del lunes 9 y las 23:59 hrs. del domingo 15 de abril no obtendrán bonificación, y, más tarde, entre las 00.00 hrs. del lunes 16 y las 23.59 hrs. del domingo 22 de abril serán "castigados" con descuento de 0,5.
+
+**Quien no entregue dentro de los plazos recién indicados, obtiene automáticamente nota mínima: 1.0**
